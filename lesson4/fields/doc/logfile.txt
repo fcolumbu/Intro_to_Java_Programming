@@ -1,0 +1,35 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\BlueJ\jdk\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.8
+-classpath
+C:\Program Files\BlueJ\lib\bluejcore.jar;C:\Program Files\BlueJ\lib\junit-4.8.2.jar;C:\Program Files\BlueJ\lib\userlib\pi4j-core.jar;C:\Program Files\BlueJ\lib\userlib\pi4j-device.jar;C:\Program Files\BlueJ\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files\BlueJ\lib\userlib\pi4j-service.jar;D:\Qsync\Intro to Java - zip Lessons\lesson4\lesson4\fields
+-d
+D:\Qsync\Intro to Java - zip Lessons\lesson4\lesson4\fields\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+D:\Qsync\Intro to Java - zip Lessons\lesson4\lesson4\fields\Plot.java
+<---- end of javadoc command ---->
+Loading source file D:\Qsync\Intro to Java - zip Lessons\lesson4\lesson4\fields\Plot.java...
+D:\Qsync\Intro to Java - zip Lessons\lesson4\lesson4\fields\Plot.java:26: error: ')' expected
+        int rows = (length - (radius *2))/(radius
+                                                 ^
+D:\Qsync\Intro to Java - zip Lessons\lesson4\lesson4\fields\Plot.java:31: error: reached end of file while parsing
+}
+ ^
+2 errors
