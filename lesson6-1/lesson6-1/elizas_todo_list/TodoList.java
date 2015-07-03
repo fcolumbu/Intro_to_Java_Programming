@@ -15,7 +15,14 @@ public class TodoList
     {
         for (int counter = 1; counter <= 6; counter++)
         {
-            System.out.println(counter + ". Sleep");
+                      if (counter % 2 == 0)
+            {
+               System.out.println(counter + ". Sleep");
+            }
+           else
+           {
+               System.out.println(counter + ". Eat");
+           }
         }
     }
 }
